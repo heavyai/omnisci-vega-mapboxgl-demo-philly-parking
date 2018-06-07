@@ -2,6 +2,8 @@
 
 A barebones example of using the Vega spec for MapD backend rendering with MapBoxGL.JS
 
+![](src/images/mapd-custom-animated.gif)
+
 ## Install
 
 Using `npm`:
