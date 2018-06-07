@@ -1,6 +1,8 @@
-# MapD Vega MapboxGL Demo
+# Demo from FOSS4G NA 2018: Philly Parking Violations
 
-A barebones example of using the Vega spec for MapD backend rendering with MapBoxGL.JS
+A barebones example of using the Vega spec for MapD backend rendering with MapBoxGL.JS. Parking violations data obtained from [Open Data Philly](https://www.opendataphilly.org/dataset/parking-violations).
+
+
 
 ## Install
 
