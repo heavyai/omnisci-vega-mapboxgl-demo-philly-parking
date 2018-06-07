@@ -1,0 +1,50 @@
+{
+  "name": "y",
+  "version": "0.0.0",
+  "description": "standalone example of integrating mapd backend rendering and mapboxgl",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --mode=development --config webpack.config.js",
+    "build": "webpack --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mapd",
+    "mapboxgl",
+    "vega"
+  ],
+  "author": "Chris Henrick <chrishenrick@gmail.com> (http://clhenrick.io)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@mapd/connector": "https://github.com/mapd/mapd-connector.git",
+    "babel-polyfill": "^6.26.0",
+    "d3-dispatch": "^1.0.3",
+    "d3-scale": "^2.0.0",
+    "d3-time": "^1.0.8",
+    "d3-time-format": "^2.1.1",
+    "d3-timer": "^1.0.7",
+    "lodash.throttle": "^4.1.1",
+    "mapbox-gl": "https://github.com/mapd/mapbox-gl-js/tarball/9c04de6949fe498c8c79f5c0627dfd6d6321f307",
+    "name-all-modules-plugin": "^1.0.1",
+    "npm": "^6.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46",
+    "babel-loader": "^8.0.0-beta",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "hot-server": "^0.0.16",
+    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-template": "^6.2.0",
+    "single-line-string": "^0.0.2",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-dev-server": "^3.1.3"
+  }
+}

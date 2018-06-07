@@ -1,0 +1,56 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  margin:0;
+  padding:0;
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#map {
+  height: calc(100% - 100px);
+  width: 100%;
+}
+
+.header {
+  height: 100px;
+  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+img.logo {
+  height: calc(100% - 30px);
+  width: auto;
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title-slider {
+  height: 100%;
+  flex-grow: 2;
+}
+
+.title {
+  width: 100%;
+}
+
+.slider-controls {
+  display: flex;
+  align-items: baseline;
+}
+
+.slider {
+  width: 150px;
+  margin-right: 15px;
+}
+
+.play-pause {
+  margin-right: 15px;
+}
