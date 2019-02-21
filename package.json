@@ -17,7 +17,7 @@
   "author": "Chris Henrick <chrishenrick@gmail.com> (http://clhenrick.io)",
   "license": "Apache-2.0",
   "dependencies": {
-    "@mapd/connector": "https://github.com/mapd/mapd-connector.git",
+    "@mapd/connector": "https://github.com/omnisci/mapd-connector.git",
     "babel-polyfill": "^6.26.0",
     "d3-dispatch": "^1.0.3",
     "d3-scale": "^2.0.0",
@@ -25,7 +25,7 @@
     "d3-time-format": "^2.1.1",
     "d3-timer": "^1.0.7",
     "lodash.throttle": "^4.1.1",
-    "mapbox-gl": "https://github.com/mapd/mapbox-gl-js/tarball/9c04de6949fe498c8c79f5c0627dfd6d6321f307",
+    "mapbox-gl": "https://github.com/omnisci/mapbox-gl-js/tarball/9c04de6949fe498c8c79f5c0627dfd6d6321f307",
     "name-all-modules-plugin": "^1.0.1",
     "npm": "^6.1.0"
   },
