@@ -8,13 +8,7 @@ Note: You need a Mapbox API key in order to use this repo (set the value [here](
 
 ## Install
 
-Using `npm`:
-
-```
-npm install
-```
-
-Using `yarn` (recommended)
+Using `yarn`
 
 ```
 yarn install
