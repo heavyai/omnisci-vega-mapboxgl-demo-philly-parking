@@ -27,7 +27,7 @@
     "lodash.throttle": "^4.1.1",
     "mapbox-gl": "https://github.com/omnisci/mapbox-gl-js/tarball/9c04de6949fe498c8c79f5c0627dfd6d6321f307",
     "name-all-modules-plugin": "^1.0.1",
-    "npm": "^6.1.0"
+    "npm": "^6.9.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
