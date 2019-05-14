@@ -45,7 +45,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new CleanWebpackPlugin(["dist"]),
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: "MapD Backend Vega Rendering with MapboxGL",
       inject: false,
