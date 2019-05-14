@@ -1,5 +1,4 @@
 import 'mapbox-gl/dist/mapbox-gl.css'
-import 'mapbox-gl/dist/mapboxgl-overrides'
 import './styles.css'
 
 import {serverInfo} from './common/config'
