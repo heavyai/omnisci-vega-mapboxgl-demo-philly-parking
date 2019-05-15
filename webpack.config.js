@@ -47,7 +47,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "MapD Backend Vega Rendering with MapboxGL",
+      title: "OmniSci Backend Vega Rendering with MapboxGL",
       inject: false,
       template: require('html-webpack-template'),
       appMountId: 'app'
