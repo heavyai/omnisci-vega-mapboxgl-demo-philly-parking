@@ -9,7 +9,7 @@ import initSlider from './components/slider'
 import {initDateReadOut} from './components/dateReadOut'
 import initPlayPause from './components/playPauseControl'
 
-import mapdLogo from './images/mapd-logo.png';
+import omnisciLogo from './images/OmniSci_Primary_Blue.png';
 
 
 document.addEventListener("DOMContentLoaded", main)
@@ -32,7 +32,7 @@ function main() {
     <div id="map"></div>`
 
   const logoImg = document.querySelector('img.logo');
-  logoImg.src = mapdLogo;
+  logoImg.src = omnisciLogo;
 
   // create the mapboxgl map
   const map = initMap()

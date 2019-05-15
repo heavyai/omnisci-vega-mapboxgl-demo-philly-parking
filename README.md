@@ -4,7 +4,7 @@ A barebones example of using the Vega spec for [OmniSci backend rendering](https
 
 Note: You need a Mapbox API key in order to use this repo (set the value [here](https://github.com/omnisci/mapd-vega-mapboxgl-demo-philly-parking/blob/master/src/components/map.js#L6)), as well as OmniSci Enterprise Edition for its backend rendering capabilities.
 
-![](src/images/mapd-custom-animated.gif)
+![](src/images/omnisci_app.gif)
 
 ## Install
 
@@ -23,10 +23,6 @@ npm start
 ```
 
 then open your browser to `http://localhost:8080`
-
-## Deploy
-
-_...to do..._
 
 ## Author
 Chris Henrick ([@clhenrick](http://github.com/clhenrick))

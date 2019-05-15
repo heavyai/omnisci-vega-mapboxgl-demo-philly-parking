@@ -1,9 +1,9 @@
 {
   "name": "y",
   "version": "0.0.0",
-  "description": "standalone example of integrating mapd backend rendering and mapboxgl",
+  "description": "Standalone example of integrating OmniSci backend rendering and mapboxgl",
   "main": "index.js",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "webpack-dev-server --mode=development --config webpack.config.js",
     "build": "webpack --mode=development",
